@@ -1,0 +1,1571 @@
+@charset "UTF-8";
+
+/* 共通部分
+---------------------- */
+html{
+    font-size: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: "Noto Serif JP";
+}
+
+/* TOP
+---------------------- */
+
+.br-sp{
+    display: none;
+}
+.top-page{
+    background: linear-gradient(#C7A86E 40%,
+        #fff);
+        width: auto;
+        height: 754px;
+        margin-bottom: 106px;
+}
+.top{
+    display: flex;
+    margin-left: 162px;
+    color: #fff;
+    margin-top: 29px;
+    text-shadow: 1px 4px 3px #000;
+}
+
+.top h1{
+    font-size: 53px;
+    margin: 13px 10px 0 70px;
+}
+.top p{
+    size: 35px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+ul{
+    display: flex;
+    margin-top: 131px;
+    margin-left: 43%;
+    list-style: none;
+}
+
+
+.top-wrapper{
+    text-align: center;
+}
+
+.top-wrapper h2{
+    text-shadow: 1px 4px 3px #080808;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 450px;
+    font-weight: bold;
+}
+
+.top-wrapper p{
+    font-weight: 600;
+    color: #A81E1E;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/* 円 */
+.circle-contents{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 397px;
+    
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #fff;
+    background-image: linear-gradient( #A81E1E 50%, #fff);
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+}
+
+.top-img{
+    width: 1290px;
+    height: 700px;
+    object-position: 100% 10%;
+    object-fit: cover;
+    position: absolute;
+    top: 82px;
+    right: 35%;
+}
+
+/* link
+---------------------- */
+.box1 {
+    width: 950px;
+    margin: 10px auto 20px;
+    border: solid 3px #BFA169;
+}
+
+.title-box{
+    width: 950px;
+    height: 56px;
+    color: #fff;
+    background-color: #BFA169;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: -2px;
+}
+
+.title-box h1{
+    margin-right: 12px;
+}
+
+.title-box p{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.teikikounyu{
+    color: #A81E1E;
+    font-weight: 600;
+    display: flex;
+    margin-top: 48px;
+    margin-left: 48px;
+}
+
+.teikikounyu h2{
+    font-size: 50px;
+}
+
+.teikikounyu p{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+.linklist-tokuten{
+    display: flex;
+    flex-direction: column;
+    margin-left: 540px;
+}
+.tokuten1{
+    margin-top: -325px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #403426;
+    font-size: 30px;
+    color: #fff;
+    line-height: 110px;
+    text-align: center;
+}
+.tokuten2{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #403426;
+    font-size: 30px;
+    color: #fff;
+    line-height: 110px;
+    text-align: center;
+}
+
+.linklist-hosyou{
+    margin-top: -324px;
+    margin-left: 660px;
+    font-weight: bolder;
+}
+
+.hosyou{
+    margin-top: 35px;
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+
+.linklist-hosyou p{
+    font-size: 15px;
+}
+
+.mio-img{
+    margin: 6px 0 0 10px;
+}
+
+.kakaku p{
+    margin-top: -211px;
+    margin-left: 305px;
+    line-height: .5;
+}
+.under_line{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+.kakaku h2{
+    letter-spacing: -0.15em;
+    color: #A81E1E;
+    font-size: 85px;
+    font-weight: 900;
+    margin-top: 58px;
+    margin-left: 457px;
+}
+
+.kakaku h2 span{
+    color: #A81E1E;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 1px;
+    margin-top: 30px;
+}
+
+.ya-red{
+    width: 130px;
+    height: 172px;
+    margin-left: 310px;
+    margin-top: -133px;
+    
+}
+.yajirushi h3{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -238px;
+    margin-right: 336px;
+}
+
+.under_line{ text-decoration: line-through double #FF0000; }
+
+.btn{
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	width: 800px;
+	height: 95px;
+	color: #000;
+    border-radius: 20px;
+    background-color: #FFAB09;
+    margin: 108px auto 40px;
+}
+
+.btn:hover{
+    opacity: 0.6;
+    color: #fff;
+}
+
+/*CONTENTS
+--------------*/
+.content1 h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 116px;
+}
+
+.image3{
+    width: 950px;
+    height: 540px;
+    object-fit: cover;
+    object-position: 50% 100%;
+    display: block;
+    margin: 20px auto 0 
+}
+
+
+/* 簡単だけのスキンケアはもうおしまい */
+.content2{
+    text-align: center;
+}
+
+.yajirushi{
+    width: 450px;
+    height: auto;
+}
+
+.content2 h2{
+    color: #BFA169;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.vitamin{
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-left: auto;
+    width: 864px;
+    height: 475px;
+}
+
+.content2 h3{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* CONTENT3 */
+.content3 img{
+    width: 1440px;
+    height: 676px;
+}
+.content3{
+    margin-top: 60px;
+}
+
+.content3 h2{
+    font-size: 35px;
+    text-shadow: 1px 2px 1px #000;
+    margin-top: -605px;
+    text-align: center;
+}
+
+.content3 span{
+    color: #FF6868;
+    font-size: 50px;
+    text-shadow: 1px 2px 1px #000;
+}   
+
+.blank_space{
+    display:inline-block;
+    width:595px;
+    }
+
+.content3 h4{
+    font-size: 20px;
+    margin: 104px 0 0 52%;
+}
+
+.content3 h3{
+    font-size: 30px;
+    margin: 164px 0 71px 52%;
+}
+
+.click{
+    font-weight: 600;
+    margin-top: 174px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* LINK2 */
+.box2 {
+    width: 1100px;
+    margin: 10px auto 20px;
+    border: solid 3px #BFA169;
+}
+
+.title-box2{
+    width: 1100px;
+    height: 56px;
+    color: #fff;
+    background-color: #BFA169;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0 auto 0;
+}
+
+.title-box2 h1{
+    margin-right: 12px;
+}
+
+.title-box2 p{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.teikikounyu2{
+    color: #A81E1E;
+    font-weight: 600;
+    display: flex;
+    margin-top: 48px;
+    margin-left: 138px;
+}
+
+.teikikounyu2 h2{
+    font-size: 50px;
+}
+
+.teikikounyu2 p{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+    
+.linklist-tokuten2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 720px;
+}
+.tokuten1{
+    margin-top: -325px;
+    margin-bottom: 10px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #403426;
+    font-size: 30px;
+    color: #fff;
+    line-height: 110px;
+    text-align: center;
+}
+.tokuten2{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #403426;
+    font-size: 30px;
+    color: #fff;
+    line-height: 110px;
+    text-align: center;
+}
+
+.linklist-hosyou2{
+    margin-top: -274px;
+    margin-left: 840px;
+    font-weight: bolder;
+}
+
+.hosyou{
+    margin-top: 10px;
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+
+.linklist-hosyou2 p{
+    font-size: 15px;
+}
+
+.mio-img{
+    margin: 6px 0 0 50px;
+}
+
+.kakaku2 p{
+    margin-top: -211px;
+    margin-left: 395px;
+    line-height: .5;
+}
+.under_line{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+.kakaku2 h2{
+    color: #A81E1E;
+    font-size: 65px;
+    font-weight: 900;
+    margin-top: 58px;
+    margin-left: 467px;
+}
+
+.kakaku2 h2 span{
+    color: #A81E1E;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 1px;
+    margin-top: 30px;
+}
+
+.ya-red{
+    width: 148px;
+    height: 172px;
+    margin-left: 310px;
+    margin-top: -133px;
+    
+}
+.yajirushi h3{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -128px;
+    margin-right: -303px;
+}
+
+.under_line{ text-decoration: line-through double #FF0000; }
+
+.btn{
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	width: 750px;
+	height: 95px;
+	color: #000;
+    border-radius: 20px;
+    background-color: #FFAB09;
+    margin: 148px auto 40px;
+}
+
+.btn:hover{
+    opacity: 0.6;
+    color: #fff;
+}
+
+/* REVIEW */
+.review-contents h2{
+    margin: 60px 0 60px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* line1 */
+.heading{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.heading::before,
+.heading::after{
+    background-color: #FFAB09;
+    content: "";
+    height: 2px;
+    width: 62px;
+    transform: rotate(58deg);
+    transform-origin: 50% 0%;
+}
+.heading::before{
+    transform: rotate(58deg);
+    margin-right: 5px;
+}
+.heading::after{
+    transform: rotate(-58deg);
+    margin-left: 5px;
+}
+/* line2 */
+
+.review-contents p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.review-contents h4{
+    font-size: 18px;
+}
+
+.review-contents h5{
+    font-size: 18px;
+}
+.blank_space2{
+    width: 10px;
+    display:inline-block;
+}
+
+/* review1 */
+.under{
+    background: linear-gradient(transparent 70%,#FFAB09);
+}
+.review1 img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 50px 253px 0 13%;
+}
+
+.review1 p{
+    margin-top: -290px;
+    margin-left: 40%;
+}
+
+.review1 h5{
+    margin-left: 17%;
+}
+
+.review1 h4{
+    margin-top: 40px;
+    margin-left: 40%;
+}
+/* review2 */
+.review2 img{
+    width: 280px;
+    height: 290px;
+    object-position: 0 100%;
+    object-fit: cover;
+    margin: 240px 253px 10px 65%;
+}
+
+.review2 p{
+    margin-top: -337px;
+    margin-left: 16%;
+}
+
+.review2 h5{
+    margin-left: 69%;
+}
+
+.review2 h4{
+    margin-top: 40px;
+    margin-left: 421px;
+}
+
+/* review3 */
+.review3 img{
+    width: 250px;
+    height: 250px;
+    object-position: 100% 100%;
+    object-fit: cover;
+    margin: 278px 80% 0 13%;
+}
+
+.review3 p{
+    margin-top: -287px;
+    margin-left: 40%;
+}
+
+.review3 h5{
+    margin-left: 17%;
+}
+
+.review3 h4{
+    margin-top: 40px;
+    margin-left: 40%;
+}
+
+
+/* MEDIA */
+
+.heading3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.heading3::before,
+.heading3::after{
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    width: 62px;
+    transform: rotate(58deg);
+    transform-origin: 50% 0%;
+}
+.heading3::before{
+    transform: rotate(58deg);
+    margin-right: 5px;
+}
+.heading3::after{
+    transform: rotate(-58deg);
+    margin-left: 5px;
+}
+
+
+.media-contents{
+    position: relative;
+    height: 834px;
+    max-width: 100%;
+    background-color: #BFA169;
+    opacity: 90%;
+    color: #fff;
+    margin-top: 316px;
+}
+
+.media-contents h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center; 
+    padding-top: 50px;
+}
+
+.img-box{
+    justify-content: center;
+    display: block;
+    height: 418px;
+    width: 900px;
+    margin: 85px auto 0;
+    display: flex;
+    background-color: rgba(245,245,245,0.3);
+}
+
+.media-contents img{
+    height: 330px;
+    width: 250px;
+    display: flex;
+    padding: 5px;
+    margin:44px 10px;
+}
+
+.media-contents h2{
+    font-size: 45px;
+    margin-top: 85px;
+    margin-left: 451px;
+}
+
+.media-contents p{
+    font-size: 20px;
+    display: flex;
+}
+
+.magazine1{
+    position: absolute;
+    top: 641px;
+    left: 20%;
+}
+.magazine2{
+    position: absolute;
+    top: 641px;
+    left: 34%;
+}
+
+/* INTERVIEW */
+.interview-box{
+    margin: 116px auto;
+    border: 3px solid #BFA169;
+    width: 960px;
+    height: 753px;
+    position: relative;
+}
+
+.interview h2{
+    margin-top: 92px;
+    margin-left: 116px;   
+}
+
+.interview img{
+    position: absolute;
+    top: 43px;
+    right: 53px;
+    height: 282px;
+    width: 322px;
+    object-fit: none;
+    object-position: 50% 0;
+}
+.interview p{
+    margin: 164px 0 0 718px;
+    font-size: 18px;
+}
+.interview p span{
+    font-size: 16px;
+}
+
+.interview h4{
+    margin-left: 116px;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+.interview h5{
+    margin-left: 116px;
+    margin-top: 116px;
+    font-size: 20px;
+}
+
+.link3 p{
+    margin-top: 116px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* FOOTER */
+.last{
+    height: 180px;
+    width: 900px;
+    background-color: #D9D9D9; 
+    border: #D9D9D9;
+    margin: 116px auto;
+}
+
+.last p{
+    padding: 30px 30px 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    margin-top: 116px;
+    background-color: #BFA169;
+}
+footer p{
+    color: #fff;
+    padding: 27px;
+    margin-left: 170px;
+}
+
+
+/* FORM */
+.form-title-box{
+    width: 100%;
+    background-color: #BFA169;
+}
+
+.form-title-box h2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    color: #fff;
+    font-size: 50px;
+}
+
+form div{
+    margin-bottom: 14px;
+}
+
+label{
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    display: block;
+    color: #fff;
+}
+input[type="text"]{
+    background: rgba(255,255,255,0.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"]{
+    margin-left: 10%;
+    width: 100%;
+    max-width: 60%;
+}
+input[type="submit"]{
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #FFAB09;
+    line-height: 1;
+    padding: 15px 30px;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+/* モバイル版 */
+
+@media screen and (max-width: 768px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+    .br-sp {display: none; }
+
+    .top-page{
+        height: 518px;
+    }
+    .top{
+        margin-left: 200px;
+    }
+    .top-img{
+        height: 422px;
+        object-position: 71% 9%;
+        position: absolute;
+        top: 126px;
+        right: 41%;
+    }
+    .top-wrapper{
+        margin-right: -225px;
+    }
+    .top-wrapper h2{
+        margin-top: 38px;
+        margin-left: 40px;
+        font-size: 35px;
+    }
+
+    .top-wrapper p{
+        font-size: 25px;
+    }
+    .circle-contents{
+        position: relative;
+        margin-top: 10px;
+        margin-left: 44px;
+    }
+    .circle{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        color: #fff;
+        background-image: linear-gradient( #A81E1E 50%, #fff);
+        text-align: center;
+        line-height: 70px;
+        font-size: 11px;
+        display: inline-block;
+    }
+
+    .ul{
+        margin-top: 120px;
+        margin-left: 150px;
+    }
+    .no1{
+        margin-top: -100px;
+        width: 200px;
+    }
+
+    /* LINK */
+    .teikikounyu{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .teikikounyu h2{
+        font-size: 35px;
+    }
+    .teikikounyu p{
+        font-size: 30px;
+        margin-top: 4px;
+        margin-left: 10px
+    }
+    .box1{
+        width: 700px;
+    }
+    .title-box{
+        width: 700px;
+        height: 50px;
+    
+    }
+    .mio-img{
+        width: 250px;
+        height: auto;
+        margin-left: 5px;
+    }
+    .kakaku{
+        margin-top: 46px;
+        margin-left: -113px;
+    }
+    .ya-red{
+        width: 90px;
+        height: auto;
+        margin-left: 208px;
+        margin-top: -100px;
+    }
+    .yajirushi h3{
+        font-size: 18px;
+        margin-right: -38px;
+        margin-top: -90px;
+    }
+    .linklist-tokuten{
+        margin-top: 70px;
+        margin-left: 428px;
+    }
+    .tokuten1,
+    .tokuten2{
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+    .linklist-hosyou{
+        margin-top: -326px;
+        margin-left: 525px;
+    }
+    .hosyou{
+        margin-bottom: 32px;
+        font-size: 25px;
+    }
+    .hosyou p{
+        font-size: 10px;
+    }
+    .kakaku h2{
+        margin-top: 78px;
+        margin-left: 403px;
+        font-size: 60px;
+    }
+    .btn{
+        font-size: 1.5rem;
+        margin-top: 113px;
+        width: 600px;
+        height: 80px;
+    }
+    /* CONTENTS */
+    .image3{
+        margin-left: 83px;
+        width: 603px;
+        height: 350px;
+        object-position: center bottom;
+    }
+    .yajirushi2{
+        width:40%;
+        }
+    
+    .content2 h2{
+        font-size: 30px;
+    }
+    .vitamin{
+        width:600px;
+        height: 339px;
+    }
+    .content2 h3{
+        font-size: 25px;
+    }
+    .content3 img{
+        width: 768px;
+        height: 500px;
+    }
+    .content3 h2{
+        font-size: 25px;
+        margin-top: -450px;
+    }
+    .blank_space{
+        width: 435px;
+    }
+    .content3 span{
+        font-size: 35px;
+    }
+    .content3 h4{
+        font-size: 18px;
+        margin: 50px auto 0 400px;
+    }
+    .content3 h3{
+        font-size: 20px;
+        margin: 150px auto 20px 404px;
+    }
+
+    /* LINK2 */
+    .click{
+        font-size: 35px;
+    }
+
+    /*  REVIEW */
+    .review-contents h2{
+        font-size: 35px;
+    }
+    /* review1 */
+    .review-contents img{
+        width: 200px;
+        height: 200px;
+    }
+    .review1 img{
+        margin: 50px 90px 5px;
+    }
+    .review1 h5{
+        margin-left: 127px;
+    }
+    .review-contents h5{
+        font-size: 14px;
+    }
+    .review1 p{
+        margin-top: -234px;
+        margin-left: 324px;
+    }
+    .review1 h4{
+        margin-left: 324px;
+    }
+    .review-contents p{
+        font-size: 18px;
+    }
+    .review-contents h4{
+        font-size: 16px;
+    }
+
+    /* review2 */
+    .review2 img{
+        margin: 210px 90px 5px 478px;
+    }
+    .review2 p{
+        margin-top: -226px;
+        margin-left: 143px;
+    }
+    .review2 h4{
+        margin-left: 143px;
+    }
+    .review2 h5{
+        margin-left: 516px;
+    }
+
+    /* review3 */
+    .review3 img{
+        margin: 210px 90px 5px;
+    }
+    .review3 h5{
+        margin-left: 129px;
+    }
+    .review3 p{
+        margin-top: -237px;
+        margin-left: 324px;
+    }
+    .review3 h4{
+        margin-left: 324px;
+    }
+
+    /* MEDIA */
+    .media-contents{
+        width: 768px;
+        height: 560px;
+    }
+    .media-contents h1{
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    .img-box{
+        width: 506px;
+        height: 300px;
+        margin: 20px auto 20px;
+    }
+    .media-contents p {
+        font-size: 16px;
+    }
+    .magazine1 {
+        position: absolute;
+        top: 410px;
+        left: 140px;
+    }
+    .magazine2 {
+        position: absolute;
+        top: 410px;
+        left: 258px;
+    }
+    .media-contents h2 {
+        font-size: 28px;
+        margin-top: 53px;
+        margin-left: 278px;
+    }
+
+    /* INTERVIEW */
+    .interview-box{
+        width: 650px;
+        height: 500px;
+    }
+    .interview h2 {
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .interview img {
+        position: absolute;
+        top: 32px;
+        right: -19px;
+        height: 159px;
+        width: 350px;
+        object-fit: cover;
+        object-position: center top;
+    }
+    .interview p{
+        margin: 93px 0 0 467px;
+        font-size: 14px;
+    }
+    .interview span{
+        font-size: 12px;
+    }
+    .interview h4 {
+        font-weight: 600;
+        margin-left: 49px;
+        font-size: 16px;
+    }
+    .interview h5 {
+        font-weight: 400;
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    /* LINK3 */
+    .link3 p{
+        font-size: 35px;
+    }
+
+    /* LAST */
+    .last p {
+        font-size: 18px;
+    }
+    .last {
+        height: 180px;
+        width: 650px;
+    }
+
+    /* FOOTER */
+    footer p {
+        padding: 12px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .br-sp {
+        display: block;
+    }
+
+    .top-page{
+        height: 456px;
+        margin-bottom: 80px;
+    }
+    .top{
+        margin-left: -40px;
+    }
+    .top h1{
+        font-size: 30px;
+    }
+    .top p{
+        font-size: 0.8rem;
+        margin-top: 13px;
+        margin-left: 0;
+    }
+
+    .no1{
+        display:none !important
+    }
+    .top-img{
+        height: 360px;
+        object-position: 71% 9%;
+        position: absolute;
+        top: 126px;
+        right: 41%;
+    }
+    .top-wrapper{
+        margin-right: 24px;
+    }
+    .top-wrapper h2{
+        position: relative;
+        margin-top: -92px;
+        margin-left: 12%;
+        font-size: 25px;
+    }
+
+    .top-wrapper p{
+        font-size: 18px;
+    }
+    .circle-contents{
+        position: relative;
+        margin-top: 34px;
+        margin-left: 154px;
+    }
+    .circle{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        color: #fff;
+        background-image: linear-gradient( #A81E1E 50%, #fff);
+        text-align: center;
+        line-height: 70px;
+        font-size: 11px;
+        display: inline-block;
+    }
+
+    .ul{
+        margin-top: 120px;
+        margin-left: 150px;
+    }
+    .no1{
+        margin-top: -100px;
+        width: 200px;
+    }
+
+    /* LINK */
+    .teikikounyu{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .teikikounyu h2{
+        font-size: 35px;
+    }
+    .teikikounyu p{
+        font-size: 20px;
+        margin-top: 8px;
+        margin-left: 10px
+    }
+    .box1{
+        border: none;
+        width: 375px;
+    }
+    .title-box{
+        max-width: 100%;
+        height: 40px;
+        justify-content: start;
+        }
+    .title-box h1{
+        font-size: 20px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+    .title-box p {
+        font-size: 16px;
+    }
+    
+    .mio-img{
+        width: 160px;
+        height: auto;
+        margin-left: -5px;
+        margin-top: -20px;
+    }
+    .kakaku{
+        margin-top: 46px;
+        
+    }
+    .kakaku p{
+        line-height: .2;
+        font-size: 10px;
+        margin-top: -120px;
+        margin-left: 271px;
+    }
+    .under_line{
+        font-size: 28px;
+    }
+    .yajirushi{
+        display: grid;
+        margin-top: 16px;
+        
+    }
+    .ya-red{
+        width: 70px;
+        height: auto;
+        margin-left: 61px;
+    }
+    .yajirushi h3{
+        font-size: 14px;
+        margin-right: 259px;
+        margin-top: -74px;
+    }
+    .linklist-tokuten{
+        margin-top: 319px;
+        margin-left: 65px;
+    }
+    .tokuten1,
+    .tokuten2{
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+    .linklist-hosyou{
+        margin-top: -326px;
+        margin-left: 169px;
+    }
+    .hosyou{
+        margin-bottom: 32px;
+        font-size: 25px;
+    }
+    .hosyou p{
+        font-size: 10px;
+    }
+    .kakaku h2{
+        font-size: 60px;
+        margin: 30px 0 0 240px;
+    }
+    .btn{
+        font-size: 1rem;
+        width: 350px;
+        height: 50px;
+        margin: 10px auto !important
+    }
+    /* CONTENTS */
+    .content1 h2{
+        font-size: 1.5rem;
+        margin-top: 80px;
+    }
+    .image3{
+        margin: 0 30px;
+        width: 350px;
+        height: 204px;
+        object-position: center bottom;
+    }
+    .yajirushi2{
+        width:40%;
+        }
+    
+    .content2 h2{
+        font-size: 1.3rem;
+    }
+    .vitamin{
+        width:365px;
+        height: 198px;
+    }
+    .content2 h3{
+        display: none;
+    }
+    .content3 img{
+        max-width: 100%;
+        height: 350px;
+    }
+    .content3 h2{
+        font-size: 18px;
+        margin-top: -335px;
+    }
+    .blank_space{
+        display: none;
+    }
+    .content3 span{
+        font-size: 25px;
+        text-align: center;
+    }
+    .content3 h4{
+        font-size: 12px;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+    .content3 h3{
+        font-size: 14px;
+        margin: 148px auto 10px;
+        text-align: center;
+    }
+
+    /* LINK2 */
+    .click{
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 80px;
+    }
+
+    /*  REVIEW */
+    .review-contents h2{
+        margin: 80px 0 30px;
+        font-size: 25px;
+    }
+    /* review1 */
+    .review-contents img{
+        width: 100px;
+        height: 100px;
+    }
+    .review1 img{
+        margin: 5px 5px 5px 15px;
+    }
+    .review1 h5{
+        margin-left: 18px;
+    }
+    .review-contents h5{
+        font-size: 10px;
+    }
+    .review1 p{
+        margin-top: -129px;
+        margin-left: 136px;
+    }
+    .review1 h4{
+        margin-left: 136px;
+    }
+    .review-contents p{
+        font-size: 16px;
+    }
+    .review-contents h4{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    /* review2 */
+    .review2 img{
+        margin: 80px 15px 5px 259px;
+    }
+    .review2 p{
+        margin-top: -136px;
+        margin-left: 20px;
+    }
+    .review2 h4{
+        margin-left: 20px;
+    }
+    .review2 h5{
+        margin-left: 258px;
+    }
+
+    /* review3 */
+    .review3 img{
+        margin: 92px 5px 5px 15px;
+    }
+    .review3 h5{
+        margin-left: 15px;
+    }
+    .review3 p{
+        margin-top: -127px;
+        margin-left: 136px;
+    }
+    .review3 h4{
+        margin-left: 136px;
+    }
+
+    /* MEDIA */
+    .media-contents{
+        max-width: 100%;
+        height: 530px;
+        margin-top: 110px;
+        text-align: center;
+    }
+    .media-contents h1{
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .heading3::before, 
+    .heading3::after {
+        width: 27px;
+    }
+    .img-box{
+        width: 300px;
+        height: 190px;
+        margin: 30px auto 0;
+    }
+    
+    .media-contents p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .magazine1 {
+        position: absolute;
+        top: 323px;
+        left: 80px;
+    }
+    .magazine2 {
+        position: absolute;
+        top: 323px;
+        left: 240px;
+    }
+    .media-contents h2 {
+        font-size: 20px;
+        margin-top: 140px;
+    }
+
+    /* INTERVIEW */
+    .interview-box{
+        width: 350px;
+        height: 500px;
+        margin: 80px auto;
+    }
+    .interview h2 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .interview img {
+        position: absolute;
+        top: 8px;
+        right: -72px;
+        height: 154px;
+        width: 330px;
+        object-fit: cover;
+        object-position: center top;
+    }
+    .interview p{
+        margin: 68px 0 0 243px;
+        font-size: 12px;
+    }
+    .interview p  span{
+        font-size: 10px;
+    }
+    .interview h4 {
+        font-weight: 600;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .interview h5 {
+        font-weight: 400;
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    /* LINK3 */
+    .link3 p{
+        font-size: 25px;
+    }
+
+    /* LAST */
+    .last p {
+        font-size: 14px;
+    }
+    .last {
+        height: 180px;
+        width: 350px;
+        margin: 80px auto;
+    }
+
+    /* FOOTER */
+    footer p {
+        padding: 12px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+        /* 320px以下に適用されるCSS（スマホ用） */
+        body{
+            display: none;
+        }
+}
